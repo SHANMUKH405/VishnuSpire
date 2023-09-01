@@ -1,0 +1,455 @@
+/* navbar */
+.newone{
+  
+}
+.btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.mybrand{
+  
+}
+
+
+/* Add a class to style the button for mobile screens */
+@media (max-width: 767px) {
+  .visible-on-mobile {
+    display: block;
+  }
+  .hidden-on-mobile {
+    display: none;
+  }
+}
+
+.download{
+  background-color:  #BE9B49;
+  border: 0px solid;
+  outline: none;
+  color: white;
+}
+
+.download:hover{
+  background-color:  #BE9B49;
+  outline: none;
+  border: 0px solid;
+}
+.download:active{
+  /* background-color:  #080808; */
+  outline: none !important;
+  border: 0px solid #BE9B49 !important;
+}
+
+/* Why consult online on Legalseva section css */
+
+.fullcon{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.consultlogo-cont{
+  height: 65px;
+    width: 74px;
+  margin-right: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  border: 2px dotted #BE9B49;
+  border-radius: 50%;
+}
+.consultlogo-cont i{
+  font-size: 2.7em;
+  color: #BE9B49;
+}
+#acces-icon{
+  padding: 2px;
+}
+#Complete-icon{
+  padding: 6px;
+}
+.consultinfo h1{
+  font-size: 1.7em;
+  font-weight: 600;
+}
+.consultonline-title h1{
+  margin-top: 34px;
+}
+.consultonline-title h1 span{
+  color: #BE9B49;
+ }
+.moreless{
+  font-size: 1em;
+  cursor: pointer;
+}
+.contbox p span{
+ display: none;
+}
+#ask_question{
+  font-size: 16px;
+    font-weight: bold;
+}
+
+/* services */
+#Services-sec{
+  background-color: #f1f1f1;
+}
+.service-title{
+  border-bottom: 4px solid #BE9B49;
+  width: 170px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+#services{
+  display: none;
+}
+/* services-sec css */
+.ser{
+  border: 2px solid red;
+  /* height: 100px; */
+  
+}
+
+.mylogo{
+  margin-left: 8px;
+  font-size: 3em;
+  color: #BE9B49
+}
+.myborder{
+  height: 3px;
+  /* border: 1px solid grey; */
+  border-left: 0px;
+  border-right: 0px;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  background-color: #BE9B49;
+}
+
+
+.mycard{
+  border: 0px solid;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #f1f1f1;
+
+}
+/* .card-text{
+  margin-top: 19px;
+} */
+.mycardtitle{ 
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+.mybtn{
+ width: 120px;
+ margin-top: auto;
+ background-color: #BE9B49;
+ color: white;
+}
+.mybtn:hover{
+  color: black;
+}
+/* testiomonial-backgroundimg css */
+#testimonial {
+  background-image: url("bg4.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: fit-content;
+  min-height: 100vh;
+  padding: 30px 0 0 0;
+}
+
+/* footer-1 css */
+.footercontainer{
+  /* border: 2px solid green; */
+  overflow: hidden;
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(justice.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: white;
+  
+}
+.to-top{
+  color: #BE9B49;
+}
+.to-top h4 a{
+  color: #BE9B49;
+}
+
+.mynavbar ul li a{
+  font-size: 1.1em;
+  color: white;
+}
+.mynavbar ul li a:link{
+ background-color: transparent;
+  
+}
+.mynavbar ul li a:visited{
+  color: white;
+}
+
+.mynavbar ul li a:hover{
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+  color: #BE9B49;
+}
+.mynavbar ul li a:active{
+  color: #BE9B49;
+}
+
+
+.footbox p{
+  color: #BE9B49;
+}
+#request{
+  /* border: 2px solid red; */
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid white;
+}
+/* .reuquestbox::after{
+  content: "";
+      background-color: pink;
+      position: absolute;
+      top: 64px;
+      left: 0px;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+} */
+@keyframes boxanim{
+  0%{
+    top: 64px;
+  }
+  100%{
+    top: 0px;
+  }
+}
+@keyframes boxanim2{
+  0%{
+    top: 0px;
+  }
+  100%{
+    top: 90px;
+  }
+}
+#request .bor{
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#request  i{
+  font-size: 1.5em;
+  color: #BE9B49;
+ 
+}
+#request i:first-child{
+  margin: 7px 23px 0 5px;
+}
+#request i:last-child{
+  margin: 7px 0px 0 5px;
+}
+#request  span{
+  font-size: 1.6em;
+  
+}
+.footbtn{
+  text-align: center;
+  border: 2px solid #BE9B49;
+  color: #BE9B49;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+/* .footbtn::after{
+  content: "";
+  background-color: #BE9B49;
+  position: absolute;
+  top: 41px;
+  left: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  animation: footbtnanim 5s ease forwards;
+} */
+@keyframes footbtnanim {
+  0%{
+    top: 41px;
+  }
+  100%{
+    top: 0px;
+  }
+}
+@keyframes footbtnanim2 {
+  0%{
+    top:0px;
+  }
+  100%{
+    top: 41px;
+  }
+}
+.box2 li a{
+  color: #BE9B49;
+}
+.box6 p:last-child a{
+  color: #BE9B49;
+}
+.box7 p:last-child a{
+  color: #BE9B49;
+}
+/* footer-2 */
+.copy{
+  font-size: 12px;
+  color: rgb(163, 161, 161);
+}
+.copy span{
+  color: #BE9B49;
+}
+#mainfooter{
+  background: linear-gradient(rgba(22, 22, 22, 0.9),rgba(22, 21, 21, 0.9));
+  overflow: hidden;
+}
+.footerimg{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.footerimg a{
+  color: rgb(248, 244, 244);
+  font-size: 30px;
+  font-weight: 600;
+  border: 0px solid;
+  background-color: transparent;
+}
+
+.socialmedia i{
+  font-size: 1.3em;
+  margin: 0 5px 0 5px;
+  color: rgb(179, 174, 174);
+  cursor: pointer;
+}
+.socialmedia i:hover{
+  color: #BE9B49;
+}
+/* .card-body{
+  display: flex;
+  flex-direction: column;
+} */
+/* All responsive css */
+@media (max-width:1030px) and (min-width:768px) {
+  .mynavbar li a{
+    font-size: 0.8em;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .download{
+    font-size: 1em;
+  }
+}
+  
+  @media (max-width:991px) {
+    .cardcont{
+      max-height: auto;
+      min-height: auto;
+    }
+    .fullcon{
+      flex-direction: column;
+    }
+    .consultinfo h1 {
+    font-size: 1.3em;
+}
+.consultlogo-cont i {
+    font-size: 2em;
+}
+.consultlogo-cont {
+    height: 76px;
+    width: 78px;
+  }
+  }
+@media (max-width:991px) and (min-width:768px) {
+  .secondcontainer{
+
+  }
+  #request span{
+    font-size: 1.2em;
+    margin: 7px 1px 0 5px;
+  }
+  #request i:first-child {
+    margin: 7px 4px 0 5px;
+   }
+  .footbtn{
+    font-size: .7em;
+  }
+}
+@media (min-width:768px) {
+  .newone {
+    top: -22px;
+}
+.mybrand {
+  position: relative;
+  top: 17px;
+}
+.mynavbar{
+  position: relative;
+  top: 15px;
+}
+#downloadbtn{
+  bottom: 5px;
+}
+}
+
+@media (max-width:768px) {
+  .newone{
+    top: -6px;
+  }
+  
+  #downloadbtn{
+    display: none;
+  }
+  .copy,.footerimg,.socialmedia{
+    margin: 15px 0 15px 0;
+  }
+  #request{
+    height: 9vh;
+  }
+  .consultonline-title h1{
+    font-size: 27px;
+  }
+}
+
+@media (max-width:600px) {
+   .secondcontainer{
+     width: 85%;
+   }
+}
+
+@media (max-width:450px) {
+  #request span{
+    font-size: 1.4em;
+  }
+  #request i:first-child {
+    font-size: 1.5em;
+}
+#request span {
+  font-size: 1.1em;
+}
+#request i:last-child {
+  font-size: 1em;
+}
+}
+
